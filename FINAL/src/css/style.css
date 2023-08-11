@@ -1,0 +1,93 @@
+#h1
+{
+    font-size: xx-large;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#p1
+{
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#body1
+{
+    background-repeat: no-repeat;
+background-color: bisque;
+}
+
+.background-image {
+    background-image: url('./image2/backgroundimage.jpg');
+    background-size: cover; /* Adjust the image size to cover the entire element */
+    background-position: center center; /* Center the image within the element */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    position: relative;
+    /* You can add more properties like background-color, etc. */
+}
+
+.center-container {
+    text-align: center; /* Center the content horizontally */
+}
+
+.margin1
+{
+    margin: 400px
+}
+
+.padding1
+{
+    padding: 100px
+}
+
+.imgop
+{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 700px; 
+    height: 250px;
+}
+
+#aboutus
+{
+    text-align: center;
+}
+footer 
+{
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+.sec1
+{
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh; /* Ensure full viewport height */
+    background-color: lightyellow;
+}
+
+.video-container
+{
+    max-width: 800px;
+}
+
+.agent-profile img 
+{
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.property-details img
+ {
+    max-width: 200%;
+    margin-bottom: 20px;
+}
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}

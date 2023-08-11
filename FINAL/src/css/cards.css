@@ -1,0 +1,85 @@
+h1 
+{
+  text-align: center;
+    font-style: Serif;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva,
+      Verdana, sans-serif;
+    color: rgb(166, 57, 10);
+  }
+  
+  body p 
+  {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+  }
+  
+  
+  
+  .center 
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-container 
+  {
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;
+    
+  }
+  
+  .card 
+  {
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    justify-content: space-around;
+    background-color: lightblue;
+    height: 600px;
+    margin: 20px;
+    width: 470px;
+  }
+  
+  .card-image 
+  {
+    
+    width: 400px;
+    height: 380px;
+  }
+  
+  .name 
+  {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 100;
+    font-size: larger;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .description 
+  {
+    text-align: center;
+    font: "Garamond";
+    width: 138px;
+    color: brown;
+    font-size: medium;
+    padding: 0 20px;
+    flex: 1;
+  }
+  
+  .price {
+    color: yellow;
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+  }
+
+  body 
+  {
+    background-color: peachpuff;
+  }
